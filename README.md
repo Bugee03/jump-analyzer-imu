@@ -43,7 +43,7 @@ flowchart LR
 
 | Ref | Part | Role |
 |---|---|---|
-| U1 | STM32F103C8T6 ("Blue Pill") | MCU |
+| U1 | STM32F103C8T6 | MCU |
 | U6 | MPU‑9250 | 9‑DOF IMU, I²C (SCL/SDA with pull‑ups R2, R4) |
 | U4, U7 | HX711 | 24‑bit bridge ADC for each load cell |
 | U2, U8 | full‑bridge load cell | force under each foot |
